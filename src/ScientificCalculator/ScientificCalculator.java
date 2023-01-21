@@ -159,10 +159,11 @@ public class ScientificCalculator extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(355, 522));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField1.setBackground(new java.awt.Color(204, 204, 204));
+        jTextField1.setBackground(new java.awt.Color(51, 51, 51));
         jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
+        jTextField1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(26, 20, 324, 52));
 
         jRadioButton1.setBackground(new java.awt.Color(255, 51, 51));
@@ -193,6 +194,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton43.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton43.setForeground(new java.awt.Color(0, 0, 0));
         jButton43.setText("sqrt");
+        jButton43.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton43.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton43.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton43.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -207,6 +209,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton44.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton44.setForeground(new java.awt.Color(0, 0, 0));
         jButton44.setText("x^y");
+        jButton44.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton44.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton44.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton44.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -221,6 +224,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton45.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton45.setForeground(new java.awt.Color(0, 0, 0));
         jButton45.setText("1/x");
+        jButton45.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton45.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton45.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton45.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -235,6 +239,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton46.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton46.setForeground(new java.awt.Color(0, 0, 0));
         jButton46.setText("x^3");
+        jButton46.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton46.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton46.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton46.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -249,6 +254,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton47.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton47.setForeground(new java.awt.Color(0, 0, 0));
         jButton47.setText("n!");
+        jButton47.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton47.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton47.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton47.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -263,6 +269,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton48.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton48.setForeground(new java.awt.Color(0, 0, 0));
         jButton48.setText("x^2");
+        jButton48.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton48.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton48.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton48.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -277,6 +284,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton49.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton49.setForeground(new java.awt.Color(0, 0, 0));
         jButton49.setText("+/-");
+        jButton49.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton49.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton49.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton49.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -286,6 +294,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton50.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton50.setForeground(new java.awt.Color(0, 0, 0));
         jButton50.setText("exp");
+        jButton50.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton50.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton50.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton50.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -300,6 +309,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton51.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton51.setForeground(new java.awt.Color(0, 0, 0));
         jButton51.setText("%");
+        jButton51.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton51.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton51.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton51.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -314,6 +324,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton52.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton52.setForeground(new java.awt.Color(0, 0, 0));
         jButton52.setText("log");
+        jButton52.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton52.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton52.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton52.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -328,6 +339,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton53.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton53.setForeground(new java.awt.Color(0, 0, 0));
         jButton53.setText("7");
+        jButton53.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton53.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton53.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton53.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -342,6 +354,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton54.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton54.setForeground(new java.awt.Color(0, 0, 0));
         jButton54.setText("1");
+        jButton54.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton54.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton54.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton54.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -356,6 +369,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton55.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton55.setForeground(new java.awt.Color(0, 0, 0));
         jButton55.setText("4");
+        jButton55.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton55.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton55.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton55.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -370,6 +384,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton56.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton56.setForeground(new java.awt.Color(0, 0, 0));
         jButton56.setText("0");
+        jButton56.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton56.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton56.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton56.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -384,6 +399,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton57.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton57.setForeground(new java.awt.Color(0, 0, 0));
         jButton57.setText("sin");
+        jButton57.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton57.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton57.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton57.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -398,6 +414,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton58.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton58.setForeground(new java.awt.Color(0, 0, 0));
         jButton58.setText("Clr");
+        jButton58.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         jButton58.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton58.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton58.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -412,6 +429,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton59.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton59.setForeground(new java.awt.Color(0, 0, 0));
         jButton59.setText("sinh");
+        jButton59.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton59.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton59.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton59.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -426,6 +444,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton60.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton60.setForeground(new java.awt.Color(0, 0, 0));
         jButton60.setText("8");
+        jButton60.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton60.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton60.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton60.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -440,6 +459,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton61.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton61.setForeground(new java.awt.Color(0, 0, 0));
         jButton61.setText("2");
+        jButton61.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton61.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton61.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton61.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -454,6 +474,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton62.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton62.setForeground(new java.awt.Color(0, 0, 0));
         jButton62.setText("5");
+        jButton62.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton62.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton62.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton62.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -468,6 +489,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton63.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton63.setForeground(new java.awt.Color(0, 0, 0));
         jButton63.setText(".");
+        jButton63.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton63.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton63.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton63.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -482,6 +504,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton64.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton64.setForeground(new java.awt.Color(0, 0, 0));
         jButton64.setText("cos");
+        jButton64.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton64.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton64.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton64.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -496,6 +519,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton65.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton65.setForeground(new java.awt.Color(0, 0, 0));
         jButton65.setText("B");
+        jButton65.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         jButton65.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton65.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton65.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -510,6 +534,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton66.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton66.setForeground(new java.awt.Color(0, 0, 0));
         jButton66.setText("cosh");
+        jButton66.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton66.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton66.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton66.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -524,6 +549,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton67.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton67.setForeground(new java.awt.Color(0, 0, 0));
         jButton67.setText("9");
+        jButton67.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton67.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton67.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton67.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -538,6 +564,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton68.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton68.setForeground(new java.awt.Color(0, 0, 0));
         jButton68.setText("3");
+        jButton68.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton68.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton68.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton68.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -552,6 +579,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton69.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton69.setForeground(new java.awt.Color(0, 0, 0));
         jButton69.setText("6");
+        jButton69.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton69.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton69.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton69.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -566,6 +594,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton71.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton71.setForeground(new java.awt.Color(0, 0, 0));
         jButton71.setText("tan");
+        jButton71.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton71.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton71.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton71.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -580,6 +609,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton72.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton72.setForeground(new java.awt.Color(0, 0, 0));
         jButton72.setText("+");
+        jButton72.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton72.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton72.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton72.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -594,6 +624,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton73.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton73.setForeground(new java.awt.Color(0, 0, 0));
         jButton73.setText("tanh");
+        jButton73.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton73.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton73.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton73.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -608,6 +639,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton74.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton74.setForeground(new java.awt.Color(0, 0, 0));
         jButton74.setText("-");
+        jButton74.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton74.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton74.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton74.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -622,6 +654,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton75.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton75.setForeground(new java.awt.Color(0, 0, 0));
         jButton75.setText("/");
+        jButton75.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton75.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton75.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton75.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -636,6 +669,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton76.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton76.setForeground(new java.awt.Color(0, 0, 0));
         jButton76.setText("*");
+        jButton76.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 2, true));
         jButton76.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton76.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton76.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -650,6 +684,7 @@ public class ScientificCalculator extends javax.swing.JFrame {
         jButton77.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton77.setForeground(new java.awt.Color(0, 0, 0));
         jButton77.setText("=");
+        jButton77.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 2, true));
         jButton77.setMaximumSize(new java.awt.Dimension(60, 45));
         jButton77.setMinimumSize(new java.awt.Dimension(60, 45));
         jButton77.setPreferredSize(new java.awt.Dimension(60, 45));
@@ -660,7 +695,8 @@ public class ScientificCalculator extends javax.swing.JFrame {
         });
         getContentPane().add(jButton77, new org.netbeans.lib.awtextra.AbsoluteConstraints(224, 427, 126, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\swati\\OneDrive\\Desktop\\—Pngtree—sky blue gradient background download_1091382.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\swati\\OneDrive\\Desktop\\wp11180956-orange-and-black-4k-wallpapers.jpg")); // NOI18N
+        jLabel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 102, 0), 3, true));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 380, 500));
 
         pack();
